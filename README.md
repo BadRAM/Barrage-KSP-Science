@@ -9,7 +9,7 @@ Barrage is a script that automates save synchronization through a git repo. When
 ## Client Setup Instructions:
 1. Make sure you have git installed. If you are on windows, install git from [git-scm.com](https://git-scm.com/). The following instructions are intended to be followed in git for windows' git bash terminal, but should work in any bash environment with git installed.
 2. Get the owner of the repo you're hosting your barrage game in to add you as a contributor, and make sure you're signed in to git in the terminal you're using.
-3. Extract Barrage.zip to an appropriate new folder and navigate to it in git bash. run `sh barrage.sh`
+3. At the top of this page, click "Code" and select "Download Zip" Extract Barrage-KSP-Science-main.zip to an appropriate new folder and navigate to it in git bash. run `sh barrage.sh`
 4. Follow the script's instructions. It will ask for the clone link of the repo you were added to in step 2, as well as the path to your KSP save folder.
 5. Once the setup is complete, you can run `sh barrage.sh` again to start a session. If everything's worked it should say "Save locked and loaded! you may now load the game." At this point you should be able to load and play the shared save from KSP. Remember to finish your session in barrage after you're done playing!
 
