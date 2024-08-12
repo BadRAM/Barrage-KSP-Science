@@ -1,0 +1,10 @@
+# Ignoring the config so that people can set usernames without pushing to everyone else.
+settings.cfg
+
+*.sfs
+*.loadmeta
+
+!persistent.sfs
+!persistent.loadmeta
+!*/Ships/**/*.loadmeta
+!*/Subassemblies/*.loadmeta
