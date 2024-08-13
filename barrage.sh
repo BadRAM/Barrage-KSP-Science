@@ -38,7 +38,7 @@ fi
 
 source ./local-settings.cfg
 cd data
-source ./game-settings.cfg
+SAVENAME=`cat savename.txt`
 
 git pull
 

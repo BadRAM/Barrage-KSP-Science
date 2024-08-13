@@ -17,7 +17,7 @@ Barrage is a script that automates save synchronization through a git repo. When
 Simulator.sh will create a copy of the save that you can use to design craft, plan missions, or check in on other's progress without locking the save or making any changes.
 
 ## Host Setup Instructions:
-1. Create a new git repository, copy and push game-settings.cfg and .gitignore from your barrage folder.
+1. Create a new git repository, copy savename.txt and .gitignore from your barrage folder into the repo and push.
 2. Create a new science mode save in KSP, then move it into the repo.
-3. In game-settings.cfg, update the SAVENAME= field to match the filename of your save.
+3. In savename.txt, replace the example string with the filename of your save.
 4. Commit and Push changes. You are now ready to run barrage first time setup. Follow the client setup instructions.
